@@ -141,6 +141,8 @@ class Shape
         gpa = gpaList.Sum(wp=>wp.WeightPoint)/totalCourseUnit;
 
         Console.WriteLine("GPA: " + formattedValue);
+
+        
         //Console.WriteLine("Please select target");
         //int UserTarget = int.Parse(Console.ReadLine());
 
